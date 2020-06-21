@@ -1,5 +1,5 @@
-const INTIIAL_STATE = {
-    sections: [
+const INITIAL_STATE = {
+  sections: [
     {
       title: 'hats',
       imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
@@ -35,11 +35,11 @@ const INTIIAL_STATE = {
   ]
 };
 
-const direcotryReducer = (state = INTIIAL_STATE, action) => {
-    switch(action.type) {
-        default:
-            return state;
-    }
+const directoryReducer = (state = INITIAL_STATE, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
 };
 
-export default direcotryReducer;
+export default directoryReducer;
